@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/SanishKumar/go-microservice/account"
+	"github.com/SanishKumar/go-microservices/account"
 	"github.com/kelseyhightower/envconfig"
 	"github.com/tinrab/retry"
 )

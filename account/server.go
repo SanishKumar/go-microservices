@@ -1,4 +1,4 @@
-//go:generate protoc ./account.proto --go_out=plugins=grpc:./pb
+// //go:generate protoc ./account.proto --go_out=plugins=grpc:./pb
 package account
 
 import (
@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/SanishKumar/go-microservice/account/pb"
+	"github.com/SanishKumar/go-microservices/account/pb/github.com/SanishKumar/go-microservices/account/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
